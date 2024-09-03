@@ -1,0 +1,56 @@
+/* Basic resets */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Change color on hover */
+.nav-link:hover {
+    color: #ff6347;
+}
+
+/* Change background color on scroll */
+.scrolled {
+    background-color: #222;
+}
+
+/* Page sections */
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+section h1 {
+    margin-bottom: 10px;
+}
